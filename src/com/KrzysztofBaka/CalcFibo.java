@@ -9,7 +9,7 @@ public class CalcFibo {
             for(int i=0;i<liczba-1;i++){
                 mnozenie(fiboArray);
             }
-            System.out.println("Wynik to: " + fiboArray[0][1]);
+            System.out.println("Wynik dla liczby " + liczba + ", to: " + fiboArray[0][1]);
 
         }else{
             System.out.println("Wynik: 0");
